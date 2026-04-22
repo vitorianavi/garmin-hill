@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<iq:manifest version="3" xmlns:iq="http://www.garmin.com/xml/connectiq">
+    <iq:application id="0123456789abcdef0123456789abcdef"
+        type="watch-app"
+        name="@Strings.AppName"
+        launcherIcon="@Drawables.LauncherIcon"
+        entry="GarminHill.App"
+        minApiLevel="3.0.0">
+        <iq:permissions>
+            <iq:uses-permission id="Positioning"/>
+        </iq:permissions>
+        <iq:products>
+            <iq:product id="instinct3solar45mm"/>
+        </iq:products>
+    </iq:application>
+</iq:manifest>
